@@ -1,0 +1,46 @@
+.container{
+    width: 400px;
+    height: 500px;
+    margin-bottom: 5px;
+    background-color: #000000;
+    transform: translate(450px,60px);
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.intro{
+    margin-left: 20px;
+}
+.title{
+    color: #c9c9c9;
+}
+.desc{
+    color: #828282;
+    transform: translate(0 ,-15px);
+}
+.picture{
+    width: 100%;
+    height: 200px;
+}
+.postdesc{
+    color: #c9c9c9;
+    transform: translate(20px,0);
+}
+.tocomments{
+    color: #828282;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.time{
+    color: #828282;
+    margin-left: 20px;
+    font-size: 12px;
+}

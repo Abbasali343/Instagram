@@ -1,0 +1,74 @@
+.container{
+    width: 400px;
+    height: 500px;
+    margin-bottom: 5px;
+    background-color: #000000;
+    transform: translate(450px,60px);
+    overflow: auto;
+}
+.header{
+    display: flex;
+}
+.comments{
+    color: #dcdcdc;
+    font-size: 24px;
+    transform: translate(150px,10px);
+
+}
+hr{
+    color: #828282;
+    line-height: 0.1px;
+}
+.user{
+    display: flex;
+}
+.image{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.userdesc{
+    margin-left: 10px;
+    display: flex;
+}
+.name{
+    color: #dcdcdc;
+}
+.desc{
+    margin-top: 22px;
+    margin-left: 10px;
+    color: #dcdcdc;
+}
+.allcomments{
+    display: flex;
+}
+.commenttext{
+    margin-left: 15px;
+    margin-top: -7px;
+}
+.commentimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.commentname{
+    font-size: 16px;
+    color: #dcdcdc;
+    
+}
+.text{
+    font-size: 14px;
+    color: #dcdcdc;
+    margin-top: -12px;
+}
+.time{
+    font-size: 8px;
+    color: #828282;
+    margin-top: -10px;
+}
+.back{
+    width: 20px;
+    height: 20px;
+    transform: translate(20px,30px);
+    cursor: pointer;
+}
